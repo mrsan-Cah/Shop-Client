@@ -23,7 +23,7 @@ const Login = () => {
   }
 
   try {
-    const res = await axios.post("https://store-backend-sy48.onrender.com/api/auth/login", {
+    const res = await axios.post("https://store-backend-1-l2mm.onrender.com/api/auth/login", {
       email: form.email,
       password: form.password,
     });
