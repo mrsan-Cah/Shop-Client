@@ -67,7 +67,7 @@ const Checkout = () => {
     };
 
     try {
-      const res = await fetch("https://store-backend-sy48.onrender.com/api/orders", {
+      const res = await fetch("https://store-backend-1-l2mm.onrender.com/api/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(orderData)
