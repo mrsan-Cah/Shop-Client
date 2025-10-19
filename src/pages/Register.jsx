@@ -24,7 +24,7 @@ const Register = () => {
   }
 
   try {
-    const response = await axios.post("https://store-backend-sy48.onrender.com/api/auth/register", {
+    const response = await axios.post("https://store-backend-1-l2mm.onrender.com/api/auth/register", {
       name: form.name,
       email: form.email,
       password: form.password,
