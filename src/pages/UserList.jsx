@@ -6,7 +6,7 @@ const UserList = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("https://store-backend-sy48.onrender.com/api/users")
+    axios.get("https://store-backend-1-l2mm.onrender.com/api/users")
       .then(res => setUsers(res.data))
       .catch(err => console.error(err));
   }, []);
